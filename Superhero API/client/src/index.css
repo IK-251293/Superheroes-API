@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.App {
+  width: 280px;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+  padding: 20px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  font-family: sans-serif;
+}
+
+.App * {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.input-fields {
+  text-align: center;
+}
+.hero-fields {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+.button {
+  display: block;
+  margin: 20px auto 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  color: #eee;
+  font-weight: 700;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  background: #207cca; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #207cca 0%,
+    #9f58a3 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #207cca 0%,
+    #9f58a3 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #207cca 0%,
+    #9f58a3 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 ); /* IE6-9 */
+}
